@@ -3,8 +3,7 @@ import { tap } from 'rxjs/operators'
 
 /**
  * Decorator for console.log Observable data
- * @param target 
- * @param propertyKey 
+ * @logObservable$
  */
 export const logObservable$ = (target: any, propertyKey: string) => {
     let propertyValue: any;
